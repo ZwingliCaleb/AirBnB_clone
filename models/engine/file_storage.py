@@ -41,7 +41,7 @@ class FileStorage:
                 my_dict[key] = value.to_dict()
             json.dump(my_dict, f)
 
-    def reloaded(self):
+    def reload(self):
         """
             convert existing json dicts to instances
         """
